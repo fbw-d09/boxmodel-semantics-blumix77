@@ -1,0 +1,80 @@
+* { 
+
+    font-family: monospace;
+}
+
+div a {
+    font-style: italic;
+}
+
+
+p,ul {
+    color: darkred;
+}
+
+.box {
+    display: inline-block;
+    border: 2px solid black;
+    overflow: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+h1,h2,h3,h4,p {
+    padding: 6px;
+}
+
+
+.block1 {
+    height: 400px;
+    width: 49%;
+    float: left;
+    border-style: dotted;
+}
+
+.box div {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.box div p{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+} 
+
+.block2 {
+    height: 400px;
+    width: 49%;
+    float: right;
+}
+
+section h2 {
+    
+    margin-top: 30px;
+    text-align: center;
+}
+
+.box h2 {
+    margin: 0px;
+    text-align: left; 
+}
+
+.block3 {
+    
+    width: 99.2%;
+    border-style: dashed;  
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+article div {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+
+
+
+
+
